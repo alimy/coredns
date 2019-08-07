@@ -6,7 +6,7 @@ require (
 	cloud.google.com/go v0.41.0 // indirect
 	github.com/Shopify/sarama v1.21.0 // indirect
 	github.com/apache/thrift v0.12.0 // indirect
-	github.com/aws/aws-sdk-go v1.21.6
+	github.com/aws/aws-sdk-go v1.21.9
 	github.com/caddyserver/caddy v1.0.1
 	github.com/coreos/bbolt v1.3.2 // indirect
 	github.com/coreos/etcd v3.3.13+incompatible
@@ -36,7 +36,7 @@ require (
 	github.com/openzipkin-contrib/zipkin-go-opentracing v0.3.5
 	github.com/philhofer/fwd v1.0.0 // indirect
 	github.com/pkg/errors v0.8.1 // indirect
-	github.com/prometheus/client_golang v1.0.0
+	github.com/prometheus/client_golang v1.1.0
 	github.com/prometheus/client_model v0.0.0-20190129233127-fd36f4220a90
 	github.com/prometheus/common v0.6.0
 	github.com/sirupsen/logrus v1.4.2 // indirect
