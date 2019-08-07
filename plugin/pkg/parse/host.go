@@ -42,6 +42,8 @@ func HostPortOrFile(s ...string) ([]string, error) {
 				ss = transport.GRPC + "://" + net.JoinHostPort(host, transport.GRPCPort)
 			case transport.HTTPS:
 				ss = transport.HTTPS + "://" + net.JoinHostPort(host, transport.HTTPSPort)
+			case transport.HTTP:
+				ss = transport.HTTP + "://" + net.JoinHostPort(host, transport.HTTPPort)
 			}
 			servers = append(servers, ss)
 			continue

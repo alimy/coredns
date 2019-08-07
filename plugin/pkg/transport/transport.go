@@ -6,6 +6,7 @@ const (
 	TLS   = "tls"
 	GRPC  = "grpc"
 	HTTPS = "https"
+	HTTP = "http"
 )
 
 // Port numbers for the various transports.
@@ -18,4 +19,6 @@ const (
 	GRPCPort = "443"
 	// HTTPSPort is the default port for DNS-over-HTTPS.
 	HTTPSPort = "443"
+	// HTTPPort is the default port for DNS-over-HTTP.
+	HTTPPort = "80"
 )
